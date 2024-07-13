@@ -20,12 +20,14 @@
     font-size: 80px;
 }
 
-.hero h3 {
+.hero h2 {
+    font-family: sans-serif;
     color: #757575;
 }
 
-.hero h5 {
-    font-weight: lighter;
+.hero h4 {
+    font-family: sans-serif;
+    color: #757575;
 }
 
 .buttons {
@@ -47,11 +49,11 @@
     transition: background-color 0.075s ease, border-color 0.075s ease, transform 0.075s ease;
 }
 
-.buttons button.convert {
+.buttons button.convertbutton {
     background-color: blue;
 }
 
-.buttons button.convert:hover {
+.buttons button.convertbutton:hover {
     background-color: darkblue;
     border-color: darkblue;
     transform: scale(1.05);
@@ -65,4 +67,19 @@
 
 .buttons button.secbutton:hover {
     transform: scale(1.05);
+}
+
+.herofooter h4 {
+    margin-top: 15px;
+}
+
+.herofooter h4 a {
+    color: grey;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.herofooter h4 a:hover {
+    text-decoration: underline;
+    color: black;
 }
