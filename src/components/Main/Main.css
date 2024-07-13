@@ -1,0 +1,68 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    background: #f0f0f0;
+    text-align: center;
+}
+
+.highlight {
+    font-family: Inter Tight;
+    color: blue;
+}
+
+.hero {
+    max-width: 75vw;
+}
+
+.hero h1 {
+    font-size: 80px;
+}
+
+.hero h3 {
+    color: #757575;
+}
+
+.hero h5 {
+    font-weight: lighter;
+}
+
+.buttons {
+    margin-top: 3.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.buttons button {
+    font-size: large;
+    font-weight: bold;
+    padding: 16px 32px;
+    color: #f0f0f0;
+    border: 2px solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.075s ease, border-color 0.075s ease, transform 0.075s ease;
+}
+
+.buttons button.convert {
+    background-color: blue;
+}
+
+.buttons button.convert:hover {
+    background-color: darkblue;
+    border-color: darkblue;
+    transform: scale(1.05);
+}
+
+.buttons button.secbutton {
+    background-color: #f0f0f0;
+    color: blue;
+    border-color: blue;
+}
+
+.buttons button.secbutton:hover {
+    transform: scale(1.05);
+}
