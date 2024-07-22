@@ -10,7 +10,7 @@ const Main = () => {
                 <div className="buttons">
                     <button className='convertbutton'>Convert &#128260;</button>
                     <h4>or</h4>
-                    <button className='secbutton'>Start Writting &#9999;&#65039;</button>
+                    <button className='startwrittingbutton'>Start Writting &#9999;&#65039;</button>
                 </div>
                 <div className="herofooter">
                     <h4>View <a href="/">Compatible Platforms &#8594;</a></h4>
