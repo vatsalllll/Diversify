@@ -85,7 +85,7 @@ const Convert = () => {
           </div>
         </form>
       </div>
-      <div>
+      <div className="ans">
         {!loading && apiData && <p className="text-align-left">{apiData}</p>}
         {loading && <p>Loading...</p>}
       </div>
