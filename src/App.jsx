@@ -15,8 +15,8 @@ const App = () => {
     <>
       <Navbar />
       <Main onConvertClick={handleConvertClick} />
-      {showConvert && <Convert />}
       <Features />
+      {showConvert && <Convert />}
     </>
   );
 }
