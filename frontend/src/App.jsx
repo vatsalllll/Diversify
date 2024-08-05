@@ -7,6 +7,7 @@ import Convert from './components/ConvertPage/Convert';
 import Login from './components/Login/Login';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
+import Register from './components/Register/Register';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/register" element={<Register/>}/>
       </Routes>
       {showConvert && <Convert />}
     </Router>

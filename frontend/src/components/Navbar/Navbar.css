@@ -42,7 +42,7 @@
   color: #ddd;
 }
 
-.sign-in {
+.sign-in, .register {
   font-family: sans-serif;
   font-weight: bold;
   font-size: medium;
@@ -55,7 +55,7 @@
   transition: background-color 0.3s ease;
 }
 
-.sign-in:hover {
+.sign-in:hover, .register:hover {
   background-color: darkblue;
 }
 
@@ -83,7 +83,7 @@
     margin-right: 15px;
   }
 
-  .sign-in {
+  .sign-in, .register {
     margin-left: 0;
   }
 }
@@ -109,7 +109,7 @@
     margin: 5px 0;
   }
 
-  .sign-in {
+  .sign-in, .register {
     margin-top: 10px;
   }
 }
